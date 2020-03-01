@@ -1,0 +1,44 @@
+#evolutionData{
+    font-size: 1.4em;
+}
+
+.evolutionEmphasizeFont{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-color: #761c19;
+    border-width: 1px;
+    color: white;
+    text-align: center;
+    background-color: #761c19;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.topicTitleRow{
+    border-bottom: 1px #8c8c8c solid;
+}
+
+.nowTopicSubTitleRow{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.nowTopicSubTitle{
+    text-align: center;
+    border-bottom: 1px #9d9d9d solid;
+}
+
+.topicWord{
+    margin-bottom: 0.8em;
+}
+
+.topicWordIndex{
+    color: red;
+}
+
+#evolutionPaperTitle{
+    font-size: 1.4em;
+    margin-bottom: 5em;
+}

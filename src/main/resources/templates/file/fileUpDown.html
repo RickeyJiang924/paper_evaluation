@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>文件管理</title>
+
+    <script src="../../static/staticJS/jquery.min.js"></script>
+    <script src="../../static/staticJS/vue.min.js"></script>
+    <script src="../../static/staticJS/vue-resource.js"></script>
+    <script src="../../static/staticJS/toastr.min.js"></script>
+    <script src="../../static/staticJS/bootstrap.min.js"></script>
+    <script src="../../static/staticJS/jquery.form.min.js"></script>
+    <script src="../../static/js/fileUD.js"></script>
+    <!--../../static-->
+
+    <link rel="stylesheet" href="../../static/staticCSS/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../../static/staticCSS/toastr.min.css"/>
+    <link rel="stylesheet" href="../../static/staticCSS/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../../static/css/segment.css">
+    <link rel="stylesheet" href="../../static/css/fileUD.css">
+    <!--../../static-->
+</head>
+<body>
+<div id="fileVue">
+    <div id="head">
+        <div class="hLogo wrap">
+            <div class="row">
+                <div class="col-xs-8">
+                    <div class="logo "></div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="jsrk">文件管理</div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!--<form method="post" id="fileForm"  enctype="multipart/form-data" >-->
+    <form method="post" action="/file/upload" id="fileForm"  enctype="multipart/form-data" @submit.prevent="uploadFile">
+        <div class="row" id="upFile">
+            <div class="col-sm-1 col-md-3"></div>
+            <div class="col-sm-7 col-md-5">
+                <div class="input-group">
+                    <span class="input-group-addon" id="sizing-addon1">上传分词文件(txt)</span>
+                    <input type="file" accept=".txt" id="segmentFileInput" class="form-control"  aria-describedby="sizing-addon1" name="file"/>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-4">
+                <input type="submit"  class="btn btn-info"></input>
+            </div>
+        </div>
+    </form>
+
+
+
+    <div id="showDicts">
+        <div style="width: 100%;align-items: center;text-align: center;font-family: 楷体;font-size: 25px;padding-bottom: 15px;">
+            <!--<span style="align-items:center;font-family: 宋体">自定义分词文件</span>-->
+            自定义词典文件
+        </div>
+
+        <table class="table table-striped" id="showTable">
+            <thead>
+            <tr>
+                <th>源文件</th>
+                <th>词典文件</th>
+                <th>词典文件大小</th>
+                <th>相关操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr v-for="dictFile in dictFiles">
+                <td>{{dictFile.name}}</td>
+                <td>{{dictFile.name}}</td>
+                <td>{{dictFile.size}}KB</td>
+                <td>
+<!--                    <button type="button" class="btn btn-default" v-on:click="downLoadSource(dictFile)">下载源</button>-->
+                    <button type="button" class="btn btn-default" v-on:click="downLoad(dictFile)">词典 <i class="fa fa-download"></i></button>
+                    <button type="button" class="btn btn-success" v-on:click="downLoadTimes(dictFile)">词频 <i class="fa fa-download"></i></button>
+                    <button type="button" class="btn btn-info" v-on:click="editDict(dictFile)"><i class="fa fa-pencil"></i> 词典</button>
+                </td>
+            </tr>
+
+            </tbody>
+        </table>
+        <div id="showNo" style="width: 100%;align-items: center;text-align: center;font-family: 楷体;font-size: 25px;padding-bottom: 15px;color: #761c19;display: none;">
+            <!--<span style="align-items:center;font-family: 宋体">自定义分词文件</span>-->
+            没有自定义分词文件
+        </div>
+    </div>
+
+    <div class="modal fade" id="confirmCoverModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h2 style="font-family: 宋体">已经存在同名文件，是否覆盖原有文件？</h2>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button v-on:click="confirmCover" type="button" class="btn btn-warning">覆盖</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+
+    <div class="modal fade" id="editDictModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" style="text-align: center;font-size: 1.5em;">{{nowEditFileName}}({{nowTextAreaLineNums}}行)</div>
+                <div class="modal-body">
+                    <textarea class="form-control" id="editDictTextArea" v-model="editTextAreaModel"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-dismiss="modal">放弃修改</button>
+                    <button v-on:click="confirmEdit" type="button" class="btn btn-info">确认修改</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+</div>
+</body>
+</html>

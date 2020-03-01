@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>分词训练</title>
+
+    <script src="../../static/staticJS/jquery.min.js"></script>
+    <script src="../../static/staticJS/vue.min.js"></script>
+    <script src="../../static/staticJS/vue-resource.js"></script>
+    <script src="../../static/staticJS/toastr.min.js"></script>
+    <script src="../../static/staticJS/bootstrap.min.js"></script>
+    <script src="../../static/js/segment.js"></script>
+    <!--../../static-->
+
+
+    <link rel="stylesheet" href="../../static/staticCSS/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../../static/staticCSS/toastr.min.css"/>
+    <link rel="stylesheet" href="../../static/staticCSS/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../../static/css/segment.css">
+    <link rel="stylesheet" href="../../static/css/publicHead.css">
+    <!--../../static-->
+</head>
+<body>
+<div id="segmentVue">
+    <div id="head">
+        <div class="hLogo wrap">
+            <div class="row">
+                <div class="col-xs-8">
+                    <div class="logo "></div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="jsrk">分词训练</div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <nav class="hnav">
+        <div class="container-fluid">
+            <ul>
+                <li class="hnavLi"><a target="_blank" href="/" class="hNavA">分词训练</a></li>
+                <li class="hnavLi"><a target="_blank" href="/statistics" class="hNavA">词频统计</a></li>
+                <li class="hnavLi"><a target="_blank" href="/tags" class="hNavA">标签注入</a></li>
+                <li class="hnavLi"><a target="_blank" href="/lda/evolution" class="hNavA">演化分析</a></li>
+
+            </ul>
+
+        </div><!-- /.container-fluid -->
+    </nav>
+
+
+    <div class="segLeft">
+        <div id="segmentShow">
+            <div class="row" style="width: 102%;margin-left: -3.2%;">
+                <div class="col-xs-1"></div>
+                <div class="col-xs-6 segParts">
+                    <span>选择分词文件</span>
+                    <div class="btn-group">
+                        <select name="year" id="segFileSelect" class="btn btn-default dropdown-toggle" v-on:change="segSelect">
+                            <option v-for="file in segmentFiles" v-bind:value=file>{{file}}</option>
+
+                        </select>
+                    </div>
+                    <a type="button" v-on:click="getDictLog" style="position: relative">日志查看</a>
+                    <button type="button" id="reRunButton" class="btn btn-default" v-on:click="rerun">ReRun</button>
+
+                </div>
+
+            </div>
+
+            <div class="row pre-scrollable" id="showSegScroll2"  v-show="!showRealSeg">
+                        <div class="row">
+                            <div class="col-xs-1"></div>
+                            <div class="col-xs-8 segTitle"><label>正在加载分词文件，请稍等...</label></div>
+                            <div class="col-xs-3">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1"></div>
+                            <div class="col-xs-9 segParts">
+                                <span>大文件加载，请耐心等待...</span>
+                                <!--{{segment.segments}}-->
+                            </div>
+                            <div class="col-xs-1"></div>
+                        </div>
+
+            </div>
+
+            <div class="row pre-scrollable" id="showSegScroll" v-on:MouseUp="changeInput" v-show="showRealSeg">
+                <div v-for="segment in segments" id="segShow">
+                    <div id="eachSeg">
+                        <div class="row">
+                            <div class="col-xs-1"></div>
+                            <div class="col-xs-8 segTitle"><label>题目：{{segment.title}}</label></div>
+                            <div class="col-xs-3">
+                                <button class="btn btn-default btnSeg" v-on:click="chooseAddSeg(segment)">修改分词</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1"></div>
+                            <div class="col-xs-9 segParts">
+                                <span v-for="eachS in segment.segments">{{eachS}}/</span>
+                            </div>
+                            <div class="col-xs-1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="pageRow" v-show="showPageDom">
+            <a v-on:click="prePage" type="button" class="pageHref btn-info">
+                <div class="col-xs-5 pageFont">
+                    <i class="fa fa-angle-left fa-lg"></i>
+                    上一页
+                </div>
+            </a>
+            <div class="col-xs-2 pageShowCol">
+                <input id="pageInput" type="text" list="pageList" class="form-control" v-on:focus="choosePage"/>
+                <datalist id="pageList" class="selectList">
+                    <option v-for="eachPage in totalPage" class="pageOption" v-bind:value="eachPage"></option>
+                </datalist>
+            </div>
+            <a v-on:click="postPage" type="button" class="pageHref">
+                <div class="col-xs-5 pageFont">
+                    下一页
+                    <i class="fa fa-angle-right fa-lg"></i>
+                </div>
+            </a>
+        </div>
+
+    </div>
+    <div class="segRight">
+
+        <div class="row">
+            <div class="input-group singleSegmentInputGroup">
+                <input type="text" class="form-control" autocomplete="off" id="singleInputText"/>
+                <span class="input-group-btn">
+                    <button class="btn btn-info" type="button" v-on:click="singleSegAdd">添加</button>
+                </span>
+            </div>
+        </div>
+        <div class="row mySegmentTitle">
+            <ul class="list-group">
+                <li class="list-group-item active">我创建的分词</li>
+            </ul>
+        </div>
+
+       <div class="row pre-scrollable mySegmentTitle" id="mySegments">
+           <ul class="list-group">
+               <div v-for="mySeg in myselfSegments">
+                   <li class="list-group-item"><a class="badge btn btn-danger" v-on:click="deleteSeg(mySeg)"><i class="fa fa-close fa-lg"></i></a>{{mySeg}}</li>
+               </div>
+           </ul>
+       </div>
+    </div>
+
+    <div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="row modalShow segTitle">&nbsp;&nbsp;&nbsp;题目:{{oneSeg.title}}</div>
+                    <div class="row modalShow segPartsM">&nbsp;&nbsp;&nbsp;分词:<span v-for="eachOS in oneSeg.segments">{{eachOS}}/</span></div>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-8">
+
+                            <div v-for="n in parseInt(inputNumber)" class="modalShow segTitleInput" v-bind:id="addInput+''+n" style="display: block;">
+                                &nbsp;&nbsp;&nbsp;新增:
+                                <input type="text" class="segmentInput" autocomplete="off" v-bind:id="input+''+n"/>
+                                <a class="deleteHref" v-on:click="hideInput(n)">
+                                    <span class="fa-stack">
+                                      <i class="fa fa-circle fa-stack-2x"></i>
+                                      <i class="fa fa-minus fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <button type="button" class="addInputButton btn btn-default " v-on:click="addInputDom"><i class="fa fa-plus fa-lg"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <button v-on:click="confirmModify" type="button" class="btn btn-info" >确认修改</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+
+    <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h2 style="font-family: 宋体">确认删除新建分词[{{deleteSegment}}]</h2>
+                    <!--<h3 style="color: #761c19">请确认用户退还衣服后再点击确认</h3>-->
+                    <!--<h3 style="color: red">删除后后不可恢复</h3>-->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button v-on:click="confirmDelete" type="button" class="btn btn-danger">确认删除</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+
+</div>
+</body>
+</html>

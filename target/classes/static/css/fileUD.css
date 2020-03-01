@@ -1,0 +1,26 @@
+#upFile{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#showTable{
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    padding-left: 15%;
+    margin-left: 10%;
+}
+
+th{
+    text-align: center;
+}
+
+#editDictTextArea{
+    resize: none;
+    width: 90%;
+    min-height: 400px;
+    max-height: 600px;
+    /*margin-bottom: -6px;*/
+    word-break: break-all;
+    margin-left: 5%;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>词频统计</title>
+
+    <script src="../../static/staticJS/jquery.min.js"></script>
+    <script src="../../static/staticJS/vue.min.js"></script>
+    <script src="../../static/staticJS/vue-resource.js"></script>
+    <script src="../../static/staticJS/toastr.min.js"></script>
+    <script src="../../static/staticJS/bootstrap.min.js"></script>
+    <script src="../../static/staticJS/echarts.js"></script>
+    <script src="../../static/js/statistics.js"></script>
+    <!--../../static-->
+
+    <link rel="stylesheet" href="../../static/css/publicHead.css">
+    <link rel="stylesheet" href="../../static/css/statistics.css">
+    <link rel="stylesheet" href="../../static/staticCSS/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../../static/staticCSS/toastr.min.css"/>
+    <link rel="stylesheet" href="../../static/staticCSS/font-awesome.min.css"/>
+
+    <!--../../static-->
+</head>
+<body>
+<div id="statisticsVue">
+    <div id="head">
+        <div class="hLogo wrap">
+            <div class="row">
+                <div class="col-xs-8">
+                    <div class="logo "></div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="jsrk">词频统计</div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <nav class="hnav">
+        <div class="container-fluid">
+            <ul>
+                <li class="hnavLi"><a target="_blank" href="/" class="hNavA">分词训练</a></li>
+                <li class="hnavLi"><a target="_blank" href="/statistics" class="hNavA">词频统计</a></li>
+                <li class="hnavLi"><a target="_blank" href="/tags" class="hNavA">标签注入</a></li>
+                <li class="hnavLi"><a target="_blank" href="/lda/evolution" class="hNavA">演化分析</a></li>
+            </ul>
+
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <!-- 选择搜索-->
+    <nav class="navbar navbar-default" id="statisticsSelectNav">
+
+        <ul class="nav navbar-nav">
+            <span style="font-family: 宋体;">文件</span>
+            <select name="year" id="countDictSelect" class="btn btn-default dropdown-toggle" v-on:change="statisticsDictSelect">
+                <option v-for="dict in statisticsDicts" v-bind:value=dict.indexName>{{dict.indexAlias}}</option>
+            </select>
+
+        </ul>
+
+        <div class="input-group" id="statisticsInputGroup">
+            <input id="searchInput" type="text" list="keyList" class="form-control" placeholder="关键词" />
+<!--            <input id="searchInput" type="text" list="keyList" class="form-control" placeholder="关键词" v-on:focus="fuzzySearch">-->
+            <span class="input-group-btn">
+                <button class="btn btn-default" type="button" v-on:click="searchKeyWord">检索</button>
+            </span>
+        </div>
+
+        <datalist id="keyList" class="selectList">
+            <option v-for="searchKey in searchResult" v-bind:value="searchKey.key">({{searchKey.num}})</option>
+<!--            {{searchKey}}</div>-->
+        </datalist>
+
+    </nav>
+
+    <div id="generalShowChart"></div>
+    <div class="singleChart" id="authorKeyShowChart"></div>
+    <div class="singleChart" id="venueKeyShowChart" style="display: none;"></div>
+    <div class="singleChart" id="institutionKeyShowChart"></div>
+
+    <div class="modal fade" id="authorTreeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" style="text-align: center;">{{nowAuthor}}——文章图谱</div>
+                <div class="modal-body">
+                    <div class="row" style="text-align: center">最常合作作者</div>
+                    <div v-for="relation in relationList">
+                        <div class="col-xs-4" style="text-align: right;">{{relation.key}}:</div>
+                        <div class="col-xs-2" style="text-align: left;">{{relation.num}}</div>
+                    </div>
+                    <div class="singleChart" id="authorTreeChart"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+
+</div>
+</body>
+</html>

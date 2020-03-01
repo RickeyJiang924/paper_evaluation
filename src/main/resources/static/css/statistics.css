@@ -1,0 +1,62 @@
+#statisticsSelectNav{
+    margin-left: 5%;
+    margin-right: 5%;
+    /*padding-left: 5%;*/
+    /*padding-right: 5%;*/
+    background-color: transparent;
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 1px solid;
+}
+
+#countDictSelect{
+    min-width: 100px;
+}
+
+#statisticsInputGroup{
+    width: 450px;
+    float: right;
+}
+
+#generalShowChart{
+    margin-left: 5%;
+
+    height: 600px;
+    width: 80%;
+    min-width: 500px;
+}
+
+.selectList {
+    width: 206px;
+    height: 212px;
+    overflow-y: scroll;
+    text-align: left;
+    margin: 0 172px;
+    border: 1px solid #999;
+    position: relative;
+}
+
+.selectList div {
+    cursor: pointer;
+}
+
+.singleChart{
+    margin-left: 5%;
+    margin-top: 45px;
+    height: 400px;
+    width: 80%;
+    min-width: 500px;
+}
+
+#authorTreeChart{
+    margin-left: 5%;
+    margin-top: 45px;
+    height: 600px;
+    width: 95%;
+    font-size: 16px;
+    /*min-width: 500px;*/
+}
+
+.modal-dialog{
+    width:900px;
+}

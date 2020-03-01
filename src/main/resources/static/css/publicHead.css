@@ -1,0 +1,97 @@
+#head{
+    width: 100%;
+    /*background:url("../images/hbg.jpg") repeat-x left top;*/
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: #78322a;
+}
+
+
+.hLogo .logo{
+    width:552px;
+    height:136px;
+    background:url(../images/logo.png) no-repeat center;
+    margin-left:-13%;
+    float:left;
+}
+.hLogo .jsrk{
+    padding-top: 40px;
+    font-size: 40px;
+    font-family: 楷体;
+}
+
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.hnav {
+    background: #78322a;
+    width: 102%;
+    margin-left: -1%;
+    height: 58px;
+    line-height: 53px;
+    text-align: center;
+    font-size: 16px;
+    /*border-top: 1px solid #78322a;*/
+    border-radius: 0px;
+    margin-bottom: 15px;
+}
+
+ul{
+    list-style-type: none;
+    display: block;
+    /*margin-block-start: 1em;*/
+    /*margin-block-end: 1em;*/
+    /*margin-inline-start: 0px;*/
+    /*margin-inline-end: 0px;*/
+    /*padding-inline-start: 40px;*/
+}
+
+.hnavLi {
+    float: left;
+    position: relative;
+    width: 170px;
+    align-items: center;
+
+}
+.hnavLi:hover {
+    float: left;
+    position: relative;
+    width: 170px;
+    background-color: white;
+}
+
+.hNavA{
+    width: 100%;
+    color: white;
+
+    /*background: no-repeat 97px center;*/
+    /*padding: 0 36px;*/
+    height: 58px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.hNavA:hover{
+    width: 100%;
+    color: #78322a;
+    text-decoration: none;
+
+}
+
+.hNavA:focus{
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+.hNavA:focus:hover{
+    width: 100%;
+    color: #78322a;
+    text-decoration: none;
+}
+
+
+

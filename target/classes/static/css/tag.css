@@ -1,0 +1,98 @@
+#showTagScroll{
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 99%;
+    height: 7000px;
+}
+
+.segPartsM{
+    width: 77%;
+    font-size: 18px;
+    font-family: 楷体;
+    /*height: 45px;*/
+    /*line-height: 40px;*/
+    padding-left: 3%;
+    word-break: break-all;
+    /*overflow-y: auto;*/
+    /*overflow-x: hidden;*/
+    color: grey;
+    margin-top: -5px;
+}
+
+.tagSearchPart{
+    margin-left: 5%;
+    width: 79%;
+    font-size: 18px;
+    font-family: 楷体;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color:black;
+    /*border-color:#d4d4d4;*/
+}
+
+.searchPartEdge{
+    padding-bottom: 8px;
+}
+
+#searchTagInput{
+
+}
+
+#searchTagSpan{
+
+}
+
+#showSpecialTagScroll{
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 99%;
+    height: 7000px;
+}
+
+#tagOriginsTextArea{
+    resize: none;
+    width: 90%;
+    height: 200px;
+    margin-bottom: -6px;
+    word-break: break-all;
+}
+
+.tagSearch{
+    margin-top: 7px;
+
+}
+
+.hotTags{
+    width: 92%;
+    margin-bottom: 10px;
+    padding-left: 3%;
+    /*padding-right: 3%;*/
+}
+
+.hotButton{
+    max-width: 99%;
+    min-width: 23%;
+    margin-bottom: 1px;
+    margin-top: 3px;
+    overflow: hidden;
+    margin-right: 2px;
+}
+
+.eachTagAHref:hover{
+    text-decoration: none;
+}
+
+#bulkAddTagButton{
+    background-color: #78322a;
+    border-color: #78322a;
+}
+#bulkAddTagButton:hover{
+    background-color: #a5574f;
+    border-color: #a5574f;
+}
+
+#tagPageRow{
+    margin-bottom: 20px;
+    width: 78%;
+    margin-left: 5%;
+}

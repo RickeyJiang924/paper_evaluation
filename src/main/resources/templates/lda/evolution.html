@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>演化模型展示</title>
+
+    <script src="../../static/staticJS/jquery.min.js"></script>
+    <script src="../../static/staticJS/vue.min.js"></script>
+    <script src="../../static/staticJS/vue-resource.js"></script>
+    <script src="../../static/staticJS/toastr.min.js"></script>
+    <script src="../../static/staticJS/bootstrap.min.js"></script>
+    <script src="../../static/staticJS/echarts.js"></script>
+    <script src="../../static/js/evolution.js"></script>
+    <!--../../static-->
+
+    <link rel="stylesheet" href="../../static/css/publicHead.css">
+    <link rel="stylesheet" href="../../static/css/evolution.css">
+    <link rel="stylesheet" href="../../static/staticCSS/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../../static/staticCSS/toastr.min.css"/>
+    <link rel="stylesheet" href="../../static/staticCSS/font-awesome.min.css"/>
+
+</head>
+<body>
+<div id="evolutionVue" style="width: 1350px">
+    <div id="head">
+        <div class="hLogo wrap">
+            <div class="row">
+                <div class="col-xs-8">
+                    <div class="logo "></div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="jsrk">演化分析</div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <nav class="hnav">
+        <div class="container-fluid">
+            <ul>
+                <li class="hnavLi"><a target="_blank" href="/" class="hNavA">分词训练</a></li>
+                <li class="hnavLi"><a target="_blank" href="/statistics" class="hNavA">词频统计</a></li>
+                <li class="hnavLi"><a target="_blank" href="/tags" class="hNavA">标签注入</a></li>
+                <li class="hnavLi"><a target="_blank" href="/lda/evolution" class="hNavA">演化分析</a></li>
+
+            </ul>
+
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div id="evolutionChart" class="topicTitleRow" style="width: 800px;height: 600px;float: left"></div>
+
+    <div id="evolutionData" class="topicTitleRow" style="width: 500px;height:600px;float: left;">
+        <div class="row topicTitleRow" style="padding-bottom: 1em;">
+            <div class="col-xs-6">主题编号 :
+                <span class="evolutionEmphasizeFont">
+                    {{nowTopicId}}
+                </span>
+            </div>
+            <div class="col-xs-6">期望 : {{nowTopicWeight}}</div>
+            <div class="col-xs-12">year = {{nowTopicYear}}</div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 nowTopicSubTitleRow">
+                <span class="nowTopicSubTitle">
+                    主题相关词
+                </span>
+            </div>
+            <div v-for="(eachTopicWord,index) in allTopicWords">
+                <div class="col-xs-6 topicWord">
+                    <i class="topicWordIndex">{{ index+1 }}.</i>
+                    {{eachTopicWord}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="evolutionPaperTitle">
+        <div class="row nowTopicSubTitleRow">
+            <div class="col-xs-9">
+                <span class="nowTopicSubTitle">
+                    主题里程碑论文
+                </span>
+            </div>
+            <div class="col-xs-3"></div>
+        </div>
+        <div v-for="(eachPaperTitle,index) in allPaperTitle">
+            <div class="col-xs-2"></div>
+            <div class="col-xs-10 topicWord">
+                <i class="topicWordIndex">{{ index+1 }}.</i>
+                {{eachPaperTitle}}
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,324 @@
+#head{
+    width: 100%;
+    /*background:url("../images/hbg.jpg") repeat-x left top;*/
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: #78322a;
+}
+
+
+.hLogo .logo{
+    width:552px;
+    height:136px;
+    background:url(../images/logo.png) no-repeat center;
+    margin-left:-13%;
+    float:left;
+}
+.hLogo .jsrk{
+    padding-top: 40px;
+    font-size: 40px;
+    font-family: 楷体;
+}
+
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.segLeft{
+    width: 70%;
+    float: left;
+}
+
+.segRight{
+    width: 27.5%;
+    float: left;
+    /*background-color: #BD362F;*/
+}
+
+#reRunButton{
+    margin-right: -4px;
+    min-width: 80px;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#showSegScroll{
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 99%;
+    height: 5000px;
+}
+#showSegScroll2{
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 99%;
+    height: 5000px;
+}
+
+.segTitle{
+    font-size: 1.3em;
+    font-family: 楷体;
+    /*height: 40px;*/
+    /*line-height: 45px;*/
+    /*overflow: hidden;*/
+    word-break: break-all;
+    padding-left: 3%;
+    /*padding-top: 0.5em;*/
+    margin-top: 0.15em;
+}
+
+.segTitleInput{
+    /*margin-left: -5%;*/
+    font-size: 20px;
+    font-family: 楷体;
+    height: 2.5em;
+    line-height: 45px;
+    overflow: hidden;
+    /*word-break: break-word;*/
+    padding-left: 2%;
+}
+
+.segTitleM{
+    font-size: 20px;
+    font-family: 楷体;
+    height: 45px;
+    /*line-height: 45px;*/
+    /*overflow-x: hidden;*/
+    /*overflow-y: auto;*/
+    word-break: break-word;
+    padding-left: 3%;
+}
+
+.modal-dialog{
+    width:900px;
+}
+
+.segParts{
+    width: 77%;
+    font-size: 18px;
+    font-family: 楷体;
+    /*height: 45px;*/
+    /*line-height: 40px;*/
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color:#d4d4d4;
+    padding-left: 3%;
+    word-break: break-all;
+    /*overflow-y: auto;*/
+    /*overflow-x: hidden;*/
+    color: grey;
+    margin-top: -5px;
+
+}
+.btnSeg{
+    margin-top: 5px;
+    font-size: 1em;
+    font-family: 华文楷体;
+    color: black;
+    font-weight:400;
+}
+
+.modalShow{
+    text-align: left;
+    /*height: 1.8em;*/
+    /*line-height: 1.8em;*/
+    font-size: 1.3em;
+    padding-bottom: 10px;
+}
+
+.segmentInput{
+    -web-kit-appearance:none;
+    -moz-appearance: none;
+    font-size:0.8em;
+    font-family: 宋体;
+    font-weight: 100;
+    color: #030303;
+    height:2.5em;
+    border-radius:4px;
+    border:1px solid #c8cccf;
+    /*color:#6a6f77;*/
+    width: 25em;
+    padding-left: 5px;
+}
+
+#mySegments{
+    -web-kit-appearance:none;
+    -moz-appearance: none;
+    width: 99%;
+    min-height: 450px;
+    max-height: 550px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    resize: none;
+    border-radius:4px;
+    border:1px solid transparent;
+
+}
+
+.mySegmentTitle{
+    -web-kit-appearance:none;
+    -moz-appearance: none;
+    width: 99%;
+    /*overflow: auto;*/
+    resize: none;
+    border:1px solid transparent;
+    margin-bottom: -20px;
+}
+
+.singleSegmentInput{
+    margin-top: 5px;
+    -web-kit-appearance:none;
+    -moz-appearance: none;
+    width: 70%;
+    height: 40px;
+    overflow: auto;
+    resize: none;
+    outline: none;
+    /*border:1px solid transparent;*/
+}
+
+.singleSegmentInputGroup{
+    margin-top: 5px;
+    width: 90%;
+}
+
+.mySegmentLi{
+    border-radius: 0px;
+}
+
+.addInputButton{
+    margin-top: 6px;
+    background-color: #78322a;
+    color: white;
+    border-radius: 50px;
+    height: 40px;
+}
+
+
+.addInputButton:focus,
+.addInputButton:active:focus,
+.addInputButton.active:focus,
+.addInputButton.focus,
+.addInputButton:active.focus,
+.addInputButton.active.focus {
+    outline: none;
+    background-color: #78322a;
+    color: white;
+}
+
+.addInputButton:hover{
+    background-color: white;
+    color: #78322a;
+}
+
+.deleteHref{
+    font-size: smaller;
+    color: #9d9d9d;
+}
+
+.deleteHref:hover{
+    color: #c7254e;
+}
+
+.segPartsM{
+    width: 77%;
+    font-size: 18px;
+    font-family: 楷体;
+    /*height: 45px;*/
+    /*line-height: 40px;*/
+    padding-left: 3%;
+    word-break: break-all;
+    /*overflow-y: auto;*/
+    /*overflow-x: hidden;*/
+    color: grey;
+    margin-top: -5px;
+}
+
+.pageFont{
+    text-align: center;
+    color: white;
+    height: 2.5em;
+    line-height: 2.5em;
+    align-items: center;
+    background-color: #78322a;
+}
+.pageFont:hover{
+    text-align: center;
+    color: white;
+    height: 2.5em;
+    line-height: 2.5em;
+    align-items: center;
+    background-color: #a5574f;
+}
+
+#pageSelectDom{
+    text-align: center;
+    margin-left: 0px;
+    border-radius: 0px;
+    border: solid 1px #78322a;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding-right: 14px;
+    font-size: 1em;
+
+}
+#pageInput{
+    text-align: center;
+    margin-left: 0px;
+    border-radius: 0px;
+    border: solid 1px #78322a;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding-right: 14px;
+    font-size: 1em;
+
+}
+
+#pageSelectDom::-ms-expand {
+    display: none;
+}
+
+#pageInput::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+.pageOption{
+    color: black;
+}
+
+.pageHref{
+
+    color: white;
+    cursor:pointer;
+}
+
+.pageHref:hover{
+    /*background-color: red;*/
+    color: white;
+    cursor:pointer;
+
+}
+
+
+.fa{
+    vertical-align: middle;
+}
+
+#pageRow{
+    margin-bottom: 20px;
+    width: 78%;
+    margin-left: 5%;
+}
+
+.pageShowCol{
+    height: 2.5em;
+    line-height: 2.4em;
+    background-color: #78322a;
+    text-align: center;
+}
+
