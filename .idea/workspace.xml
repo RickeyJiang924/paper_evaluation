@@ -1,7 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17344f25-ace0-46f5-be44-a1f91e128b2a" name="Default Changelist" comment="" />
+    <list default="true" id="17344f25-ace0-46f5-be44-a1f91e128b2a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.nju/topics/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.nju/topics/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/TopicsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/TopicsApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/config/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/config/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/config/EsConfiguration$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/config/EsConfiguration$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/config/EsConfiguration$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/config/EsConfiguration$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/config/EsConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/config/EsConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/config/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/dao/AuthorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/dao/AuthorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/dao/ESIndexService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/dao/ESIndexService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/dao/IndexInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/dao/IndexInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/dao/PaperService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/dao/PaperService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/dao/Tools.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/dao/Tools.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/dao/impl/AuthorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/dao/impl/AuthorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/dao/impl/ESIndexImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/dao/impl/ESIndexImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/dao/impl/IndexInfoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/dao/impl/IndexInfoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/dao/impl/PaperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/dao/impl/PaperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/domain/DictFileInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/domain/DictFileInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/domain/EvolutionDataInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/domain/EvolutionDataInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/domain/PageDataInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/domain/PageDataInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/domain/ResponseInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/domain/ResponseInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/domain/Segment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/domain/Segment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/domain/StatisticsInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/domain/StatisticsInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/domain/TagInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/domain/TagInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/domain/TreeDataInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/domain/TreeDataInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/entity/AuthorEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/entity/AuthorEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/entity/IndexEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/entity/IndexEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/entity/PapersEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/entity/PapersEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/service/Dict.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/service/Dict.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/service/FileService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/service/FileService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/service/LDAService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/service/LDAService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/service/Segments.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/service/Segments.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/service/StatisticsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/service/StatisticsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/service/TagService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/service/TagService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/serviceImpl/DictImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/serviceImpl/DictImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/serviceImpl/FileServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/serviceImpl/FileServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/serviceImpl/LDAServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/serviceImpl/LDAServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/serviceImpl/SegmentsImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/serviceImpl/SegmentsImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/serviceImpl/StatisticsImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/serviceImpl/StatisticsImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/serviceImpl/TagServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/serviceImpl/TagServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/utils/MapValueComparator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/utils/MapValueComparator$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/utils/MapValueComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/utils/MapValueComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/web/DictController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/web/DictController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/web/FileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/web/FileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/web/LdaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/web/LdaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/web/SegmentsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/web/SegmentsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/web/StartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/web/StartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/web/StatisticsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/web/StatisticsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/web/TagsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/web/TagsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nju/topics/web/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nju/topics/web/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nju/topic/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/nju/topic/AppTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,39 +65,72 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/config/Config.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/dao/impl/PaperImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="425">
+              <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/TopicsApplication.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/dao/impl/ModelServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="440">
+              <caret line="75" column="80" lean-forward="true" selection-start-line="75" selection-start-column="80" selection-end-line="75" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/dao/DatasetService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="108">
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/nju/topic/AppTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/entity/ModelEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="297">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/dao/ModelService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/dao/impl/DatasetServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="32" column="77" lean-forward="true" selection-start-line="32" selection-start-column="77" selection-end-line="32" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,19 +140,61 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>UpdateRequest</find>
+      <find>SearchHit</find>
+      <find>origin</find>
+      <find>papers</find>
+      <find>Dataset</find>
+      <find>dataset</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>dataset</replace>
+      <replace>Model</replace>
+      <replace>model</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/nju/topic/test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/nju/topic/test_python.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nju/topics/entity/DatasetEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nju/topics/dao/ModelService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nju/topics/dao/impl/PaperImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nju/topics/entity/ModelEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nju/topics/dao/DatasetService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nju/topics/dao/impl/DatasetServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nju/topics/dao/impl/ModelServiceImpl.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,6 +253,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="topics" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="topics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="topic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="topics" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -166,6 +306,15 @@
               <item name="topic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="topics" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="topics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="topic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -175,6 +324,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="topics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="topic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="topics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="topic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="topics" type="b2602c69:ProjectViewProjectNode" />
@@ -210,14 +377,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583055958440" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584452797198" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -231,7 +400,56 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.test_python">
+    <configuration name="test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="topics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nju.topic.test" />
+      <module name="topics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nju.topic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_python" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nju.topic.test_python" />
+      <module name="topics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nju.topic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="topics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nju.topic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nju.topic" />
+      <option name="MAIN_CLASS_NAME" value="nju.topic.AppTest" />
+      <option name="METHOD_NAME" value="testApp" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TopicsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="topics" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.nju.topics.TopicsApplication" />
@@ -239,6 +457,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test_python" />
+        <item itemvalue="Application.test (1)" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="JUnit.AppTest.testApp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -250,81 +476,247 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583052283885</updated>
-      <workItem from="1583052290037" duration="2557000" />
+      <workItem from="1583052290037" duration="8870000" />
+      <workItem from="1583385469483" duration="16944000" />
+      <workItem from="1583475680703" duration="14226000" />
+      <workItem from="1584443101727" duration="9497000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="AppTest_testApp - 2020.03.06 at 14h 52m 20s.xml">
+      <configuration name="AppTest.testApp" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2557000" />
+    <option name="totallyTimeSpent" value="49537000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info id="Alibaba Cloud Explorer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Alibaba Cloud View" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Alibaba Cloud Explorer" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2548807" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/staticCSS/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/nju/topic/AppTest.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3.jar!/org/elasticsearch/index/query/QueryBuilders.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="298">
+          <caret line="90" column="36" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
+          <folding>
+            <element signature="e#3142#3143#0" expanded="true" />
+            <element signature="e#3199#3200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/serviceImpl/TagServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/serviceImpl/StatisticsImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="-5184">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/evolution.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/hbg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/statistics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2511" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/tag.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/domain/ResponseInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/domain/TagInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/domain/Segment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nju/topic/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/domain/PageDataInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/config/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="513">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/serviceImpl/DictImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/serviceImpl/LDAServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../PhotonWorkspace/leetcode/src/leetcode/problem1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../PhotonWorkspace/leetcode/src/leetcode/problem2.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../PhotonWorkspace/leetcode/src/leetcode/problem3.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../PhotonWorkspace/leetcode/src/leetcode/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1944" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Runtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="618" column="27" lean-forward="true" selection-start-line="618" selection-start-column="27" selection-end-line="618" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nju/topic/test_python.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nju/topic/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <element signature="e#82#83#0" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="56" column="38" lean-forward="true" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/domain/DictFileInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/service/Dict.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/utils/MapValueComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -335,5 +727,221 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/publicHead.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1909" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/segment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-729" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/entity/AuthorEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/entity/IndexEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/dao/impl/AuthorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/dao/impl/IndexInfoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/dao/impl/ESIndexImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/serviceImpl/FileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486">
+          <caret line="69" column="30" lean-forward="true" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/service/FileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/serviceImpl/SegmentsImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2997">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/entity/PapersEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2962">
+          <caret line="41" column="42" lean-forward="true" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/dao/PaperService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/dao/AuthorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/entity/DatasetEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/web/StatisticsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="84" column="28" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/web/LdaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/dao/DatasetService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/dao/ModelService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/entity/ModelEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/dao/Tools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/dao/impl/PaperImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/dao/impl/DatasetServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="32" column="77" lean-forward="true" selection-start-line="32" selection-start-column="77" selection-end-line="32" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/topics/dao/impl/ModelServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="75" column="80" lean-forward="true" selection-start-line="75" selection-start-column="80" selection-end-line="75" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
