@@ -41,5 +41,9 @@ public class MapValueComparator implements Comparator<String> {
         sortedByValues.putAll(map);
         return sortedByValues;
     }
+    
+    public static void test() {
+    	
+    }
 }
 
